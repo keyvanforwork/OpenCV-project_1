@@ -9,7 +9,7 @@ int main() {
 	cv::utils::logging::setLogLevel(cv::utils::logging::LogLevel::LOG_LEVEL_SILENT);
 	// Read image
 	std::string img_path = "directory address";
-	::Mat img = cv::imread(img_path);
+	cv::Mat img = cv::imread(img_path);
 	cv::imshow("Image", img);
 	cv::waitKey(0);
 
